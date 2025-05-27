@@ -1,0 +1,144 @@
+.header{
+    background-color: black;
+    justify-content: space-evenly;
+}
+.button{
+ background-color:black;
+ color:white;
+ justify-content:space-evenly;
+ border: 10ch;
+ padding:15px;
+padding-top: 64px, un !important;
+padding-bottom: 64px, un !important;
+ height: 10px;
+ box-sizing: inherit;
+}
+
+
+
+b:hover{
+    background-color:lightgrey;
+}
+
+
+    button:hover{
+        background-color:lightslategrey;
+    }
+.c{
+    background-image: url('c.jpg');
+    text-align: center;
+    height: 700px;
+    width: 1500px;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    color:white;
+
+}
+.los{
+
+
+    background-image: url('los.jpg');
+    text-align: center;
+    height: 700px;
+    width: 1500px;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    color:white;
+
+
+
+
+}
+.newyork{
+
+    background-image: url('newyork.jpg');
+    text-align: center;
+    height: 700px;
+    width: 1500px;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    color:white;
+}
+.section1{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+
+
+}
+.music{
+    color:gray;
+}
+.section{
+  height:100vh;
+}
+
+
+
+
+.section2{
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+
+}
+.tour{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 100vh;
+}
+.p{
+    color:grey;
+}
+.box{
+    background-color: white;
+    color:grey;
+    border: 20px solid black;
+    line-height: 20px;
+}
+hr{
+    color: grey;
+}
+.tour2{
+    height:350px;
+    width:200px;
+    
+    background-color:white;
+    color:black;
+    margin:10px;
+justify-content: space-evenly;
+    
+}
+.sep{
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    display: inline-flex;
+    margin:10px;
+}
+.br{
+    background-color: black;
+    
+}
+form{
+    background-color:white;
+    color:black;
+    height: 70vh;
+    
+}
+.car{
+    background-image: url('map.jpg');
+    background-size: contain;
+}
+
