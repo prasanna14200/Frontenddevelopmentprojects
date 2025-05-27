@@ -1,0 +1,5 @@
+console.log(" i am very happy")
+console.log("welcome to github")
+console.log("welcome to git")
+console.log(" hello from dev-adrian")
+console.log(" this  is bad code ")
