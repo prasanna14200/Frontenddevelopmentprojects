@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<P id="demo"></P>
+    <script>
+        let x="";
+      const myobj={
+        name:"john",
+        age:30,
+        cars:[
+            {name:"ford",models:["fiest","focus","mustang"]},
+            {name:"bmw",models:["320","x3","x5"]},
+            {name:"flat",models:["500","pandu"]}
+
+
+
+        ]
+
+      }
+
+      for(let i in myobj.cars){
+        x +="<h1>"+myobj.cars[i].name+"<h1>";
+            for(let j in myobj.cars[i].models){
+               x +=myobj.cars[i].models[j]+"</br>";
+            }
+      }
+      document.getElementById("demo").innerHTML=x;
+
+
+    </script>
+    </body>
+</html>

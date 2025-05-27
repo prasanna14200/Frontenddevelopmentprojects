@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id ="demo"></p>
+    <script>
+        const person={
+            firstname:"john",
+            lastname:"doe",
+            language:"no",
+            set lang(value){
+                this.language=value;
+            }
+
+        };
+        person.lang="en";
+
+      let mystring=JSON.stringify(person);
+
+            let text="";
+            for(let x in person){
+                text+=person[x]+"";
+            };
+
+        document.getElementById("demo").innerHTML=person.language;
+    </script>
+</body>
+</html>

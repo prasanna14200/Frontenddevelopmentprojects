@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <button onclick="getlocation()">try it</button>
+    <script>
+     const x=document.getElementById("demo");
+     function getlocation(){
+        if(navigator.geolocation){
+            navigator.geolocation.getCurrentPosition(showposition,showerror);
+
+        }else {
+            x.innerHTML="geolocation is suppoerted"
+        }
+   
+     }
+function showposition(position){
+    x.innerHTML="latitude"+position.coords.laitude+"<br> longitude :"+position.coords.longitude; 
+}
+
+function showerror(error){
+    switch (error.code) {
+        case error.PERMISSIONDENIED:X.innerHTML="user denied the request for geolocation"
+            
+            break;
+            case error.POSITION-UNAVAILABLE:x.innerHTML="location information is unavailable"
+            break;
+            case error.TIMEOUT:x.innerHTML="the request to get user location timed out "
+            break;
+            case error.UNKNOWN-ERROR:x.innerHTML="An unknown error occured"
+    
+        default:
+            break;
+    }
+
+}
+
+
+    </script>
+    
+</body>
+</html>
